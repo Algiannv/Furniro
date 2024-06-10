@@ -64,9 +64,14 @@ body {
   display: flex;
   align-items: center;
   gap: 5px;
-  font-style: 'Montserrat';
+  font-family: 'Montserrat';
   font-size: 34px;
   font-weight: bold;
+}
+
+.header-logo img {
+  width: 50px;
+  height: 32px;
 }
 
 .header-nav {
@@ -137,7 +142,7 @@ body {
 
 .footer-newsteller form {
   display: flex;
-  gap: 38px;
+  gap: 11px;
   margin-top: 53px;
 }
 
@@ -147,6 +152,7 @@ body {
   outline: 0;
   color: #9F9F9F;
   font-size: 14px;
+  width: 200px;
 }
 
 .footer-newsteller form button {
@@ -156,6 +162,7 @@ body {
   background-color: #FFFFFF;
   font-weight: 500;
   font-size: 14px;
+  font-family: 'Poppins';
 }
 
 .footer-rights {
