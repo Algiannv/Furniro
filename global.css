@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+picture {
+  display: contents;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Poppins';
+}
+
+.button {
+  background-color: #B88E2F;
+  padding: 25px 72px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFFFFF;
+  display: block;
+  width: max-content;
+  transition: 0.125s;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #FFFFFF;
+  background-color: #886a23;
+}
+
+.header {
+  padding: 29px 100px 30px 54px;
+  justify-content: space-between;
+  display: flex;
+  background-color: #FFFFFF;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-style: 'Montserrat';
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.header-nav {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  gap: 75px;
+  align-items: center;
+}
+
+.header-options {
+  display: flex;
+  gap: 45px;
+  align-items: center;
+}
+
+.footer {
+  padding: 48px 0px 38px;
+  border-top: 1px solid rgba(0, 0, 0, 17%);
+  margin-top: 50px;
+}
+
+.footer-top {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.footer-location {
+  margin-right: 136px;
+}
+
+.footer-location h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer-location p {
+  color: #9F9F9F;
+  font-size: 16px;
+  margin-top: 50px;
+}
+
+.footer h3 {
+  font-size: 16px;
+  color: #9F9F9F;
+}
+
+.footer ul {
+  margin-top: 55px;
+}
+
+.footer li {
+  margin-top: 45px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.footer-links {
+  margin-right: 144px;
+}
+
+.footer-help {
+  margin-right: 72px;
+}
+
+.footer-newsteller form {
+  display: flex;
+  gap: 38px;
+  margin-top: 53px;
+}
+
+.footer-newsteller form input {
+  border: 0;
+  border-bottom: 1px solid #000;
+  outline: 0;
+  color: #9F9F9F;
+  font-size: 14px;
+}
+
+.footer-newsteller form button {
+  border: 0;
+  border-bottom: 1px solid #000;
+  outline: 0;
+  background-color: #FFFFFF;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.footer-rights {
+  font-size: 16px;
+  padding-top: 47px;
+  margin-left: 100px;
+  border-top: 1px solid #D9D9D9;
+  margin-top: 47px;
+  margin-right: 100px;
+}
