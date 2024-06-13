@@ -32,14 +32,12 @@
   gap: 6px;
 }
 
-.products {
-  background-color: #F9F1E7;
-  padding: 22px 100px 23px 98px;
-}
 
 .products-filters {
   display: flex;
   justify-content: space-between;
+  background-color: #F9F1E7;
+  padding: 22px 100px 23px 98px;
 }
 
 .filters {
@@ -116,4 +114,71 @@
   appearance: none;
   font-size: 20px;
   color: #9F9F9F;
+}
+
+.pagination-buttons {
+  justify-content: center;
+  display: flex;
+  gap: 38px;
+  margin-top: 40px;
+}
+
+.pagination-buttons button {
+  border-radius: 10px;
+  outline: 0;
+  background-color: #F9F1E7;
+  padding: 15px 24px;
+  border: 0;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.125s;
+}
+
+
+.pagination-buttons button.active {
+  background-color: #B88E2F;
+  color: #FFFFFF;
+}
+
+.pagination-buttons button:hover {
+  background-color: #B88E2F;
+  color: #FFFFFF;
+}
+
+.pagination-buttons button.next-section {
+  padding: 15px 27px;
+  font-weight: 300;
+}
+
+.company-info {
+  background-color: #FAF3EA;
+  padding: 100px 53px;
+  display: flex;
+  justify-content: center;
+  gap: 55.33px;
+  margin-top: 85px;
+}
+
+.company-block {
+  display: flex;
+  gap: 10px;
+  width: 340px;
+  align-items: center;
+}
+
+.company-block h2 {
+  color: #242424;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.company-block p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #898989;
+  margin-top: 2px;
+}
+
+.footer {
+  margin-top: 0px;
 }
