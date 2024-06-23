@@ -1,0 +1,184 @@
+.banner {
+  position: relative;
+}
+
+.banner-img {
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  width: 100%;
+  
+}
+
+.banner-text {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.banner-text h2 {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.banner-text .breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+
+.products-filters {
+  display: flex;
+  justify-content: space-between;
+  background-color: #F9F1E7;
+  padding: 22px 100px 23px 98px;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  
+}
+
+.filters button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.filters button p {
+  font-size: 20px;
+}
+
+.product-results {
+  border-left: 1px solid #9F9F9F;
+  padding-left: 34px;
+}
+
+.display {
+  display: flex;
+  align-items: center;
+  gap: 29px;
+}
+
+.display-numbers {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+
+.display-numbers input {
+  width: 55px;
+  height: 55px;
+  outline: 0;
+  border: 0;
+  color: #9F9F9F;
+  font-size: 20px;
+  display: flex;
+  text-align: center;
+}
+
+.display-numbers input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.display-numbers input::-webkit-outer-spin-button,
+.display-numbers input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.display-sort {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.display-sort select {
+  border: 0;
+  outline: 0;
+  width: 188px;
+  height: 55px;
+  background-color: #FFFFFF;
+  padding: 12px 86px 13px 30px;
+  appearance: none;
+  font-size: 20px;
+  color: #9F9F9F;
+}
+
+.pagination-buttons {
+  justify-content: center;
+  display: flex;
+  gap: 38px;
+  margin-top: 40px;
+}
+
+.pagination-buttons button {
+  border-radius: 10px;
+  outline: 0;
+  background-color: #F9F1E7;
+  padding: 15px 24px;
+  border: 0;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.125s;
+}
+
+
+.pagination-buttons button.active {
+  background-color: #B88E2F;
+  color: #FFFFFF;
+}
+
+.pagination-buttons button:hover {
+  background-color: #B88E2F;
+  color: #FFFFFF;
+}
+
+.pagination-buttons button.next-section {
+  padding: 15px 27px;
+  font-weight: 300;
+}
+
+.company-info {
+  background-color: #FAF3EA;
+  padding: 100px 53px;
+  display: flex;
+  justify-content: center;
+  gap: 55.33px;
+  margin-top: 85px;
+}
+
+.company-block {
+  display: flex;
+  gap: 10px;
+  width: 340px;
+  align-items: center;
+}
+
+.company-block h2 {
+  color: #242424;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.company-block p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #898989;
+  margin-top: 2px;
+}
+
+.footer {
+  margin-top: 0px;
+}
