@@ -150,35 +150,6 @@
   font-weight: 300;
 }
 
-.company-info {
-  background-color: #FAF3EA;
-  padding: 100px 53px;
-  display: flex;
-  justify-content: center;
-  gap: 55.33px;
-  margin-top: 85px;
-}
-
-.company-block {
-  display: flex;
-  gap: 10px;
-  width: 340px;
-  align-items: center;
-}
-
-.company-block h2 {
-  color: #242424;
-  font-weight: 600;
-  font-size: 25px;
-}
-
-.company-block p {
-  font-size: 20px;
-  font-weight: 500;
-  color: #898989;
-  margin-top: 2px;
-}
-
 .footer {
   margin-top: 0px;
 }

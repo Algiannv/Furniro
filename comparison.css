@@ -1,0 +1,161 @@
+.banner {
+  position: relative;
+}
+
+.banner-img {
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  width: 100%;
+
+}
+
+.banner-text {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.banner-text h2 {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.banner-text .breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+
+.rating-stars {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-right: 18px;
+}
+
+.rating-stars span {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.review {
+  font-size: 13px;
+  color: #9f9f9f;
+  border-left: 1px solid #D9D9D9;
+  font-weight: 400;
+  padding: 5px 0 5px 9px;
+}
+
+.product-detail {
+  text-align: left;
+}
+
+.product-detail h3 {
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.product-detail p {
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+  margin-top: 6px;
+}
+
+.product-page {
+  text-align: left;
+  min-width: 280px;
+}
+
+.product-page h2 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.product-page a {
+  border-bottom: 1px solid #727272;
+  font-size: 20px;
+  font-weight: 500;
+  color: #727272;
+}
+
+.choose h2 {
+  align-items: left;
+  display: flex;
+}
+
+.choose div {
+  background-color: #B88E2F;
+  color: #FFFFFF;
+  border-radius: 6px;
+  justify-content: space-between;
+  padding-top: 6px;
+  padding-bottom: 7px;
+  width: 242px;
+  display: flex;
+  padding: 6px 15.5px 7px 18px;
+  margin-top: 14px;
+}
+
+.choose select {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  color: #FFFFFF;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+  font-weight: 600;
+  font-size: 14px;
+  height: 26px;
+}
+
+.compare table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.compare th {
+  padding: 13px 25px 64px 25px;
+  vertical-align: top;
+}
+
+.compare .choose {
+  padding-top: 62px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.compare td {
+  padding: 17px 34px 17px 42px;
+  border-left: 1px solid #E8E8E8;
+}
+
+.new-section td {
+  border-top: 1px solid #E8E8E8;
+}
+
+.cart-button {
+  border: 0;
+  outline: 0;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: #B88E2F;
+  color: #FFFFFF;
+  padding: 17px 48px;
+}
