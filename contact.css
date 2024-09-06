@@ -1,0 +1,88 @@
+.banner {
+  position: relative;
+  margin-bottom: 84px;
+}
+
+.banner-img {
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  width: 100%;
+
+}
+
+.banner-text {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.banner-text h2 {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.banner-text .breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.in-touch {
+  max-width: fit-content;
+  margin-inline: auto;
+}
+
+.in-touch h3 {
+  color: black;
+  font-weight: 600;
+  font-size: 36px;
+  justify-content: center;
+  display: flex;
+}
+
+.in-touch p {
+  color: #9F9F9F;
+  font-size: 16px;
+  text: center;
+  display: flex;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+}
+
+.address-contacts {
+  display: flex;
+  align-items: start;
+}
+
+.additional-info {
+  padding-top: 12px;
+  padding-left: 30px;
+}
+
+.phone-numbers {
+  padding-left: 20px;
+}
+
+.phone-contacts {
+  display: flex;
+  align-items: start;
+}
+
+.working-contacts {
+  display: flex;
+  align-items: start;
+}
+
+.working-hours {
+  padding-left: 20px;
+}
